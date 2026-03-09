@@ -1,0 +1,86 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background:#f4f4f4;
+line-height:1.6;
+}
+
+header{
+background:#333;
+color:white;
+text-align:center;
+padding:30px;
+}
+
+nav{
+background:#444;
+text-align:center;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+padding:15px;
+display:inline-block;
+}
+
+nav a:hover{
+background:#666;
+}
+
+section{
+padding:40px;
+max-width:1000px;
+margin:auto;
+}
+
+h2{
+margin-bottom:20px;
+}
+
+ul{
+padding-left:20px;
+}
+
+.project{
+background:white;
+padding:20px;
+margin-bottom:15px;
+border-radius:8px;
+box-shadow:0 0 5px rgba(0,0,0,0.2);
+}
+
+.social a{
+margin-right:15px;
+text-decoration:none;
+color:#333;
+font-weight:bold;
+}
+
+footer{
+background:#333;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:20px;
+}
+
+/* Responsive Design */
+
+@media(max-width:768px){
+
+nav a{
+display:block;
+border-bottom:1px solid #555;
+}
+
+section{
+padding:20px;
+}
+
+}
